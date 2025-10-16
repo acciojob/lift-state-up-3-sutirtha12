@@ -8,7 +8,7 @@ const App = () => {
   const[selectedOption,isSelectedOption]=useState("")
   console.log(selectedOption)
   return (
-    <div className="Parent">
+    <div className="parent">
       <h1>Parent Component</h1>
         <ChildComponent1 isSelectedOption={isSelectedOption}/>
         <ChildComponent2 isSelectedOption={isSelectedOption}/>
